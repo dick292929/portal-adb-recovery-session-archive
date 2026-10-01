@@ -1,0 +1,1 @@
+Meta Portal 10-inch recovery research: V8 renderer read/write primitives, WebAssembly indirect-call control, native execution barriers, kernel/EDL findings, OTA extraction, and ADB/OOBE analysis.

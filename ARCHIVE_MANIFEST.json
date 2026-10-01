@@ -1,0 +1,153 @@
+{
+  "archive": {
+    "file": "dsh-session-session-aa1e3da7-02f5-4131-ac2e-d9b84079a51d.zip",
+    "bytes": 17647101,
+    "expanded_bytes": 79802939,
+    "records": 11873,
+    "sha256": "0cc195580b23504d0ba17856d9cbe40da3880999d773cc013ae0e839e647a1b3",
+    "streams": [
+      {
+        "path": "session.v4.jsonl",
+        "bytes": 75921317,
+        "records": 11101,
+        "sha256": "00710dae3a8c05fb02a3b7048e0e12a43a100391cae7262ee4674d3ccc9dab73",
+        "event_counts": {
+          "agent/inbox/spliced": 280,
+          "approval/policy": 1,
+          "assistant/attempt": 9,
+          "assistant/message": 1763,
+          "command/done": 14,
+          "command/run": 14,
+          "compaction/end": 14,
+          "compaction/prune": 22,
+          "compaction/start": 14,
+          "compaction/summary": 14,
+          "deliverables/presented": 3,
+          "llm/retry": 2,
+          "llm/retry-started": 2,
+          "model/selection": 2,
+          "permission/preset": 1,
+          "request/context": 3,
+          "request/header": 18,
+          "sandbox/mode": 1,
+          "session": 1,
+          "session-log-deepseek/delivery-accepted": 1134,
+          "session/title": 1,
+          "session/title-llm-request": 1,
+          "step/end": 1770,
+          "step/start": 1770,
+          "subagent/catalog": 3,
+          "system/message": 1,
+          "todo/write": 12,
+          "tool/call": 1803,
+          "tool/result": 1825,
+          "turn/end": 132,
+          "turn/start": 132,
+          "user/message": 184,
+          "web/deepseek-search-llm-request": 60,
+          "workspace/changes": 95
+        }
+      },
+      {
+        "path": "subagents/e1d39dad-6787-49df-b104-54b305863001/session.v4.jsonl",
+        "bytes": 867070,
+        "records": 152,
+        "sha256": "2b953f765c1dd9c3b11fc049a08f54408cc10d9c8034f4f5c8afc79f6424d9f0",
+        "event_counts": {
+          "agent/inbox/spliced": 2,
+          "approval/policy": 1,
+          "assistant/message": 12,
+          "request/context": 1,
+          "request/header": 1,
+          "sandbox/mode": 1,
+          "session": 1,
+          "session-log-deepseek/delivery-accepted": 12,
+          "session/title": 1,
+          "step/end": 12,
+          "step/start": 12,
+          "subagent/descriptor": 1,
+          "system/message": 1,
+          "tool/call": 33,
+          "tool/result": 33,
+          "turn/end": 1,
+          "turn/start": 1,
+          "user/message": 3,
+          "web/deepseek-search-llm-request": 23
+        }
+      },
+      {
+        "path": "subagents/eb025e1d-8f1d-4d81-a125-c01242a5d772/session.v4.jsonl",
+        "bytes": 2773296,
+        "records": 551,
+        "sha256": "3246008e82092802dd5eb8cc013724148c1f92fd9bcb23b36705ecfcb2660d1e",
+        "event_counts": {
+          "agent/inbox/spliced": 2,
+          "approval/policy": 1,
+          "assistant/message": 85,
+          "deliverables/presented": 1,
+          "request/context": 1,
+          "request/header": 1,
+          "sandbox/mode": 1,
+          "session": 1,
+          "session-log-deepseek/delivery-accepted": 85,
+          "session/title": 1,
+          "step/end": 85,
+          "step/start": 85,
+          "subagent/descriptor": 1,
+          "system/message": 1,
+          "tool/call": 97,
+          "tool/result": 97,
+          "turn/end": 1,
+          "turn/start": 1,
+          "user/message": 3,
+          "web/deepseek-search-llm-request": 1
+        }
+      },
+      {
+        "path": "subagents/1950112f-1ffe-4691-a6fc-6c18ce1e9edd/session.v4.jsonl",
+        "bytes": 241256,
+        "records": 69,
+        "sha256": "56dd805d492c64737db205be4d8fa7893e800bdc99e12b7cde1836d7acbda61a",
+        "event_counts": {
+          "agent/inbox/spliced": 2,
+          "approval/policy": 1,
+          "assistant/attempt": 1,
+          "assistant/message": 9,
+          "request/context": 1,
+          "request/header": 1,
+          "sandbox/mode": 1,
+          "session": 1,
+          "session/title": 1,
+          "step/end": 10,
+          "step/start": 10,
+          "subagent/descriptor": 1,
+          "system/message": 1,
+          "tool/call": 12,
+          "tool/result": 12,
+          "turn/end": 1,
+          "turn/start": 1,
+          "user/message": 3
+        }
+      }
+    ]
+  },
+  "summary": {
+    "file": "README.md",
+    "source_filename": "SESSION_RECORD_2026-09-30.md",
+    "sha256": "a7211aa2ca0af496e41c9a3617d601fb0654b09892454546ea3e7bd602442a54",
+    "copied_verbatim": true
+  },
+  "suggested_github_metadata": {
+    "name": "portal-adb-recovery-session-archive",
+    "description": "Meta Portal 10-inch recovery research: V8 renderer read/write primitives, WebAssembly indirect-call control, native execution barriers, kernel/EDL findings, OTA extraction, and ADB/OOBE analysis.",
+    "topics": [
+      "meta-portal",
+      "android",
+      "v8",
+      "arm32",
+      "adb",
+      "firmware-research",
+      "session-archive"
+    ]
+  }
+}
