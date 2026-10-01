@@ -1,5 +1,7 @@
 # Raw session export
 
+[Research files and tools](TOOLS.md) · [Original-file manifest](RESEARCH_FILES_MANIFEST.json)
+
 [Open the raw ZIP](dsh-session-session-aa1e3da7-02f5-4131-ac2e-d9b84079a51d.zip) · [Integrity manifest](ARCHIVE_MANIFEST.json) · [Checksums](SHA256SUMS)
 
 The [README](README.md) is an exact copy of the selected `SESSION_RECORD_2026-09-30.md`. The original session ZIP is preserved byte for byte.

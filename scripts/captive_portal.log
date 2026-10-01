@@ -1,0 +1,14 @@
+=== Captive Portal Server Log Started ===
+======================================================================
+       META PORTAL HARDWARE CAPTIVE ESCAPE SERVER
+======================================================================
+[*] 1. HTTP Interceptor on port 80
+[*] 2. Diagnostics Console on port 8080
+[*] 3. Kernel PF Redirection on bridge100
+======================================================================
+[+] Firewall active: Intercepting ALL Port 80 HTTP & disabling Port 853 DoT
+[+] ALL SYSTEMS ARMED. Waiting for Portal connection...
+[96m[PORTAL BROWSER OPENED][0m Portal loaded diagnostic console: /
+[96m[PORTAL BROWSER OPENED][0m Portal loaded diagnostic console: /
+[96m[PORTAL BROWSER OPENED][0m Portal loaded diagnostic console: /favicon.ico
+[96m[PORTAL BROWSER OPENED][0m Portal loaded diagnostic console: /favicon.ico

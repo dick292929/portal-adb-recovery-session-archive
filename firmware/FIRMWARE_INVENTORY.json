@@ -1,0 +1,108 @@
+{
+  "build": "1041515800015050",
+  "note": "Local original OTA and its 16 extracted partitions. Bulk firmware is not stored in Git; use the extractor with a matching OTA. Hashes identify the research input and results.",
+  "artifacts": [
+    {
+      "source": "firmware/aloha_ota_1041515800015050.zip",
+      "bytes": 1282501712,
+      "sha256": "0287084025af63af4063afe2022e81a9bba52d4bd32f011614a441da5ca4297c",
+      "included_in_git": false
+    },
+    {
+      "source": "firmware/ota_extracted/abl.img",
+      "bytes": 217088,
+      "sha256": "f3909a85ec0b9b92e41e26857254a70e7c68875c629db57091b8904e5a5adc96",
+      "included_in_git": false
+    },
+    {
+      "source": "firmware/ota_extracted/bluetooth.img",
+      "bytes": 454656,
+      "sha256": "e7bad47b5e07a449dc0e8fb187ead4c8743da23d47012adb075aa28b2aba7fb2",
+      "included_in_git": false
+    },
+    {
+      "source": "firmware/ota_extracted/boot.img",
+      "bytes": 27897856,
+      "sha256": "18e63ae4981db2ad57ccc781c27515bf4341a64ca0d80094d5a1817f197c19bf",
+      "included_in_git": false
+    },
+    {
+      "source": "firmware/ota_extracted/cmnlib.img",
+      "bytes": 237568,
+      "sha256": "8510949a267921b953a3cb64903d89d3c66db73e0e993b2114845cd2444ab35a",
+      "included_in_git": false
+    },
+    {
+      "source": "firmware/ota_extracted/cmnlib64.img",
+      "bytes": 311296,
+      "sha256": "201d219db2e10eed336f1cb714244ecd8554fa0974e866251c1c49e0c04ab7f5",
+      "included_in_git": false
+    },
+    {
+      "source": "firmware/ota_extracted/devcfg.img",
+      "bytes": 61440,
+      "sha256": "cb59a1be134aa1837689a54c08ccdfe125b1cfaa02558f687cdc7c575975293a",
+      "included_in_git": false
+    },
+    {
+      "source": "firmware/ota_extracted/dsp.img",
+      "bytes": 16777216,
+      "sha256": "9b76f5eaff87c0339280d9413b6c0a5381b0959fc046ec63263589371b83bcf4",
+      "included_in_git": false
+    },
+    {
+      "source": "firmware/ota_extracted/hyp.img",
+      "bytes": 274432,
+      "sha256": "14863fbe4540ad1daa284920087e9f440d610248ea5466ce6bd78eb8a24c7cce",
+      "included_in_git": false
+    },
+    {
+      "source": "firmware/ota_extracted/keymaster.img",
+      "bytes": 315392,
+      "sha256": "c5dd629048db8e28cd42b90c8a0a1539bc0edc30cd77d7d75ccc9db786513e36",
+      "included_in_git": false
+    },
+    {
+      "source": "firmware/ota_extracted/modem.img",
+      "bytes": 23236608,
+      "sha256": "56b0e4fc03737a76ae6381c71a2e9114b09b82784c60f5faf34f6a4eca5cd9d4",
+      "included_in_git": false
+    },
+    {
+      "source": "firmware/ota_extracted/pmic.img",
+      "bytes": 53248,
+      "sha256": "08a966e3dfc403e406d708a4d0510b1bf4b651943e2ebae43c768266f36d6fea",
+      "included_in_git": false
+    },
+    {
+      "source": "firmware/ota_extracted/rpm.img",
+      "bytes": 237568,
+      "sha256": "1c02fc93d3492735546ebc8a24b66db33a21a49516db7f9a1ddd5bbfb9cecdab",
+      "included_in_git": false
+    },
+    {
+      "source": "firmware/ota_extracted/system.img",
+      "bytes": 3221225472,
+      "sha256": "26ef677cb72ae49ff488aab6204891b130b992ddc2e829ef45b3dbf96992b067",
+      "included_in_git": false
+    },
+    {
+      "source": "firmware/ota_extracted/tz.img",
+      "bytes": 1937408,
+      "sha256": "ca116c334cba798a980a3608d754ea1f4f3e6307790e7e06b3cc03aec89e852c",
+      "included_in_git": false
+    },
+    {
+      "source": "firmware/ota_extracted/vendor.img",
+      "bytes": 3221225472,
+      "sha256": "bd28d4a17a3195720f38dc20c7891cf08f0736d62b6f1f30614852c93627bd41",
+      "included_in_git": false
+    },
+    {
+      "source": "firmware/ota_extracted/xbl.img",
+      "bytes": 2686976,
+      "sha256": "1a3a2a6449b831ee45b55eb72b15afe235ba44c855a53c811f5a1c8e7bc29519",
+      "included_in_git": false
+    }
+  ]
+}

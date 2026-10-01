@@ -134,7 +134,7 @@
   "summary": {
     "file": "README.md",
     "source_filename": "SESSION_RECORD_2026-09-30.md",
-    "sha256": "53877d0291a3bd047f0d9d5039cd46437cf916dc57ce30fab00798ec49e04d5a",
+    "sha256": "c33f16a7e5188209c1cdce0a7c48f6d862c849c102a9fd10cf4b630a8fef0abe",
     "copied_verbatim": true,
     "title": "Session Record \u2014 Portal 10\" first gen APQ8098/MSM8998 Unlock attempt."
   },
@@ -150,5 +150,14 @@
       "firmware-research",
       "session-archive"
     ]
+  },
+  "research_snapshot": {
+    "guide": "TOOLS.md",
+    "manifest": "RESEARCH_FILES_MANIFEST.json",
+    "manifest_sha256": "cb8774ebfe11ae627ec5e582e340afdfbd0c572479cc95b29810e709e0aeb4b8",
+    "original_file_count": 161,
+    "original_bytes": 10869040,
+    "firmware_inventory": "firmware/FIRMWARE_INVENTORY.json",
+    "third_party_notices": "THIRD_PARTY_NOTICES.md"
   }
 }

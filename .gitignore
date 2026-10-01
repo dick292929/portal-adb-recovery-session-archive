@@ -1,0 +1,7 @@
+# Local generated output; original research sources are tracked explicitly.
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+firmware/ota_extracted/
+firmware/aloha_ota_*.zip
