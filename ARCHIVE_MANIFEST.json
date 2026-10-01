@@ -134,8 +134,9 @@
   "summary": {
     "file": "README.md",
     "source_filename": "SESSION_RECORD_2026-09-30.md",
-    "sha256": "a7211aa2ca0af496e41c9a3617d601fb0654b09892454546ea3e7bd602442a54",
-    "copied_verbatim": true
+    "sha256": "53877d0291a3bd047f0d9d5039cd46437cf916dc57ce30fab00798ec49e04d5a",
+    "copied_verbatim": true,
+    "title": "Session Record \u2014 Portal 10\" first gen APQ8098/MSM8998 Unlock attempt."
   },
   "suggested_github_metadata": {
     "name": "portal-adb-recovery-session-archive",

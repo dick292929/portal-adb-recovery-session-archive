@@ -1,8 +1,10 @@
-# Session Record — Portal 10" Full Unlock Campaign (through 2026-09-30)
+# Session Record — Portal 10" first gen APQ8098/MSM8998 Unlock attempt.
 
 **Target:** Meta Portal 10" Gen 1 (`aloha`, APQ8098/MSM8998, Android 9 `PKQ1.191202.001`, user build)
 **Goal:** Flip the ADB toggle so Immortal Loader can be installed.
 **Outcome:** A working renderer primitive was built; every escalation and adjacent route was then closed against device evidence or primary sources. The final lock is Meta's private key, which is nowhere public.
+
+**Research credit:** Part of this research is based on [amemefarmer](https://github.com/amemefarmer)'s [The PurrTol](https://github.com/amemefarmer/the-purrtol), an earlier attempt to unlock a first generation Portal+ 15.6". His published research notes and experiment journals informed this investigation's captive portal approach, firmware analysis, and kernel-route assessment.
 
 ---
 
@@ -103,7 +105,7 @@ Root cause of the direct-call failures (from V8 source): `PrepareCall()` → `ca
 - **Confirmed vulnerable and unpatched** on this kernel via disassembly of `ep_loop_check_proc`: a non-safe `rb_next` after a recursive `ep_call_nested`.
 - Status: reachable *only* with renderer native exec, which §3 closed. So the kernel stage is real but orphaned.
 
-Field research cross-reference: `amemefarmer/the-purrtol` (Portal+ 15.6", Chrome 86, CVE-2020-16040 renderer + an incomplete epoll-UAF kernel stage) was abandoned before root — same wall.
+Field research reference: [The PurrTol](https://github.com/amemefarmer/the-purrtol) by [amemefarmer](https://github.com/amemefarmer) (Portal+ 15.6", Chrome 86, CVE-2020-16040 renderer + an incomplete epoll-UAF kernel stage). His earlier unlock attempt informed this kernel-route assessment.
 
 ---
 
